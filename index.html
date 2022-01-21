@@ -4,38 +4,49 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="style.css">
 	<title>Frontend Mentor | Order summary card</title>
 </head>
 <body>
-	<header>
-		<img src="images/illustration-hero.svg" alt="illustration">
-	</header>
-	Order Summary
-	<section>
-	You can now listen to millions of songs, audiobooks, and podcasts on any 
-	device anywhere you like!
+	<section class="main">
+		<img src="images/illustration-hero.svg" alt="illustration" class="illu">
+		<header> Order Summary </header> 
+		<article>
+			You can now listen to millions of songs, audiobooks, and podcasts on any 
+			device anywhere you like!
+		</article>
+		<section class="flex">
+			<div class="flex-in">
+				<div>
+					<img src="images/icon-music.svg" alt="music-icon">
+				</div>	
+				<div>
+					<span>Annual Plan</span> 
+					<span>$59.99/year</span>
+				</div>
+			</div>
+			<div>
+				<a href="#">Change</a>
+			</div>
+		</section>
+		<section class="buttons">
+			<div>
+				<a href="#" class="pay-button">Proceed to Payment</a>
+			</div>
+			<div>
+				<a href="#" class="cancel-button">Cancel Order </a>
+			</div>
+		</section>
 	</section>
-	<section>
-		<div>
-			<img src="images/icon-music.svg" alt="music-icon">
-			Annual Plan
-			$59.99/year
-		</div>
-		<div>
-		Change
-		</div>
-	</section>
-	<section>
-		<div>
-		Proceed to Payment
-		</div>
-		<div>
-		Cancel Order
-		</div>
-	</section>
-	<div class="attribution">
-	Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-	Coded by <a href="#">Fara</a>.
-	</div>
+	<footer>
+		<div class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+			Coded by <a href="https://github.com/marsade">Fara</a>.
+			</div>
+	</footer>
+	
 </body>
 </html>
