@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
 	margin: 0;
 	padding: 0;
@@ -243,3 +244,108 @@ footer {
 		margin-bottom: 25px;
 	}
 }
+=======
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	background-image: url("images/pattern-background-mobile.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	font-size: 16px;
+}
+body {
+	font-family: "Red Hat Display";
+
+	overflow-x: hidden;
+}
+.main {
+	border-radius: 20px;
+	margin: 50px 25px 100px 25px;
+	background-color: hsl(225, 100%, 99%);
+	padding-bottom: 20px;
+}
+.illu {
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+header {
+	font-weight: 900;
+	font-size: 1.5rem;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	color: hsl(223, 47%, 23%);
+}
+article {
+	margin: 0px 32px 32px 30px;
+	font-size: 1rem;
+	opacity: 0.6;
+	line-height: 1.7rem;
+}
+.flex {
+	display: flex;
+	background-color: hsl(225, 100%, 96%);
+	margin: 0px 20px 0px 20px;
+	border-radius: 10px;
+	padding: 15px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div > span:nth-child(1) {
+	font-weight: 700;
+	color: hsl(223, 47%, 23%);
+	opacity: 1;
+}
+div > span:nth-child(2) {
+	opacity: 0.5;
+}
+.flex > div > a {
+	color: hsl(245, 75%, 52%);
+	font-size: 0.9rem;
+	font-weight: 700;
+}
+.flex > div > a:hover {
+	color: hsl(245, 75%, 52%);
+	text-decoration: none;
+	opacity: 0.7;
+}
+.buttons {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.buttons > div:nth-child(1) {
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+.pay-button {
+	background-color: hsl(245, 75%, 52%);
+	color: hsl(225, 100%, 98%);
+	font-weight: 700;
+	padding: 10px 65px;
+	text-decoration: none;
+	border-radius: 10px;
+	box-shadow: 0px 10px 30px rgb(56, 41, 224, 0.4);
+}
+.pay-button:hover {
+	opacity: 0.7;
+}
+.buttons > div:nth-child(2) {
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+.cancel-button {
+	font-weight: 900;
+	text-decoration: none;
+	color: hsl(245, 75%, 52%);
+	opacity: 0.5;
+}
+.cancel-button:hover {
+	opacity: 1;
+	color: hsl(223, 47%, 23%);
+}
+>>>>>>> 4b58c59d363ebbe45f41f6dcaab97f525be656bc
